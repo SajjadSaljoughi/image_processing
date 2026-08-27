@@ -1,0 +1,44 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+myVenv/
+
+# Practice files
+s1/
+s2/
+s3/
+s4/
+s5/
+s6/
+s7/
+s8/
+s9/
+s10/
+s11/
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# PyInstaller
+dist/
+build/
+
+# Python env files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Others
+*.sqlite3
