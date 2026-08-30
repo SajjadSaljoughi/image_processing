@@ -28,9 +28,24 @@ kernel5 = np.array([[0  ,  -1 ,  0],
 
 image = cv2.imread("input\\test.jpg")
 
-result = cv2.filter2D(image, -1, kernel5)
+result1 = cv2.filter2D(image, -1, kernel1)
+result2 = cv2.filter2D(image, -1, kernel2)
+result3 = cv2.filter2D(image, -1, kernel3)
+result4 = cv2.filter2D(image, -1, kernel4)
+result5 = cv2.filter2D(image, -1, kernel5)
 
-# cv2.imshow("result", result)
-cv2.imwrite("output\\my_filter.jpg", result)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+image1 = np.hstack((image,result1))
+image2 = np.hstack((image,result2))
+image3 = np.hstack((image,result3))
+image4 = np.hstack((image,result4))
+image5 = np.hstack((image,result5))
+
+result = np.hstack((image, result1, result2, result3, result4, result5))
+
+
+cv2.imwrite("output\\edge_detection.jpg", image1)
+cv2.imwrite("output\\sharpening.jpg", image2)
+cv2.imwrite("output\\emboss.jpg", image3)
+cv2.imwrite("output\\identity.jpg", image4)
+cv2.imwrite("output\\my_filter.jpg", image5)
+cv2.imwrite("output\\result.jpg", result)
