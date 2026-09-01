@@ -13,5 +13,6 @@ You can see the sections of this repository below:
 | [assignment 5](https://github.com/SajjadSaljoghi/image_processing/tree/main/assignment5) | 4                |
 | [assignment 6](https://github.com/SajjadSaljoghi/image_processing/tree/main/assignment6) | 5                |
 | [assignment 7](https://github.com/SajjadSaljoghi/image_processing/tree/main/assignment7) | 4                |
+| [assignment 8](https://github.com/SajjadSaljoghi/image_processing/tree/main/assignment8) | ?                |
 
 you can see details in each Section . so go there . 
